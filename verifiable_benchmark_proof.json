@@ -3,7 +3,7 @@
         "gpu_target": "Tesla T4",
         "vram_capacity": "14.6 GB",
         "sm_count": 40,
-        "model_configuration": "Qwen-2.5-72B-Instruct / FP8 Mixed Precision",
+        "model_configuration": "Qwen-2.5-7B-Instruct / FP8 Mixed Precision",
         "baseline_framework": "vLLM v0.6+ Standard Attention Kernel"
     },
     "nsight_profile_registers": {
