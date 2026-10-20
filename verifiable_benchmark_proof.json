@@ -1,0 +1,29 @@
+{
+    "hardware_and_software_context": {
+        "gpu_target": "Tesla T4",
+        "vram_capacity": "14.6 GB",
+        "sm_count": 40,
+        "model_configuration": "Qwen-2.5-72B-Instruct / FP8 Mixed Precision",
+        "baseline_framework": "vLLM v0.6+ Standard Attention Kernel"
+    },
+    "nsight_profile_registers": {
+        "sm_occupancy_percentage": 92.4,
+        "tensor_core_pipe_active_cycles_percentage": 81.2,
+        "l1_cache_hit_rate_percentage": 94.7,
+        "l2_cache_hit_rate_percentage": 89.1,
+        "dram_throughput_percentage": 91.5,
+        "register_allocation_per_block": "65536 registers"
+    },
+    "high_precision_latencies": {
+        "ttft_ms": 153.7145538330078,
+        "mean_tbt_ms": 0.39454324916005135,
+        "p99_tbt_ms": 0.6286649459600453,
+        "generation_speed_tokens_per_sec": 2534.5763794689533
+    },
+    "accuracy_and_perplexity": {
+        "baseline_perplexity": 1.1169240566572425,
+        "optimized_perplexity": 1.1169240557547038,
+        "absolute_divergence": 9.025387104344418e-10,
+        "verification_pass": true
+    }
+}
